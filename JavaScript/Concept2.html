@@ -1,0 +1,23 @@
+<!-- Toggle -->
+<html>
+<head>
+</head>
+<body>
+	<h1>Hi</h1>
+	<button>TOGGLE TEXT</button>
+	<script>
+		
+		var h1 = document.querySelector('h1');
+		var btn = document.querySelector('button');
+		btn.onclick = function(){
+            var content = h1.textContent;
+            if(content=='Hi'){
+                h1.textContent = "Bye";
+            }
+            else{
+                h1.textContent = "Hi";
+            }
+		}
+	</script>
+</body>
+</html>
