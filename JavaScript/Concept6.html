@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Username Validation</title>
+    </head>
+    <body>
+        <h1></h1>
+        <script>
+            var username = prompt('Enter Your Name');
+            var h1Tag = document.querySelector('h1');
+            if (username == 'null' || username.length == 0) {
+                alert('Enter Your name');
+            } else {
+                h1Tag.textContent = username;
+            }
+        </script>
+    </body>
+</html>
