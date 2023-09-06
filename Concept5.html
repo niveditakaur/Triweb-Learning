@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="rose1.jpg"> </img>
+    <script>
+        let image=document.querySelector('img');
+        image.onclick=function()
+        {
+            let imgsrc= image.getAttribute('src');
+            if (imgsrc=='rose1.jpg')
+            {
+                image.setAttribute('src','rose2.jpg');
+            }
+            else 
+            {
+                image.setAttribute('src','rose1.jpg');
+            }
+        }
+    </script>
+</body>
+</html>
