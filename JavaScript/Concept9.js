@@ -1,0 +1,10 @@
+if (true) {
+    var x = 5;
+}
+console.log(x);  // x is 5
+
+if (true) {
+    let y = 5;
+    console.log(y); // y is 5
+}
+console.log(y);  // Uncaught ReferenceError: y is not defined
