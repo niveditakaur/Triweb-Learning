@@ -13,16 +13,16 @@ xyz();
 
 // Arrow function
 
-let arr = [1,2,3];
-let two = arr.map(element => element*2);
+let ar = [1,2,3];
+let two = ar.map(element => element*2);
 console.log(two);
 
 //Arrow function and return
 
-let obj = (name,age) => {
+let ob = (name,age) => {
     return {name:name,age:age};
 }
-console.log(obj('Rahul',18));
+console.log(ob('Rahul',18));
 
 //Arrow function without return 
 
