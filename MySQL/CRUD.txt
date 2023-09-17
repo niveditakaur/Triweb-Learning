@@ -1,0 +1,14 @@
+=> Create table
+CREATE TABLE `triweb`.`users` (`id` INT(10) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+=> Insert
+INSERT INTO `users`(`id`, `name`, `email`, `password`) VALUES ('01','Nivedita','niveditakaur@gmail.com','psw123')
+
+=> Select
+SELECT * FROM `users`;
+
+=> Update
+UPDATE `users` SET `password`='abcd' WHERE `id`='01';
+
+=> Delete
+DELETE FROM `users` WHERE email='niveditakaur@gmail.com';
