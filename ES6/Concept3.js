@@ -22,7 +22,7 @@ console.log(two);
 let ob = (name,age) => {
     return {name:name,age:age};
 }
-console.log(ob('Rahul',18));
+console.log(ob('Anjali',20));
 
 //Arrow function without return 
 
