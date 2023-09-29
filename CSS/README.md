@@ -17,7 +17,7 @@ The **Form** subfolder contains an HTML file that presents a user registration f
 The **Time-Table** subfolder contains an HTML file that displays a personal time-table with custom CSS styling.
 
 * Files: 
-     - **Time-table.html**: This HTML file displays a personal time-table, which can be customized to include various events or appointments. The CSS file defines the appearance of the time-table, including colors, fonts, and the overall layout.
+     - **Time-table.html**: This HTML file displays a personal time-table, which can be customized to include various activities. 
      - **Time-table.css**: The CSS file responsible for styling the personal time-table. It ensures that the time-table is organized and visually clear for the user.
 
 <p align="center">
