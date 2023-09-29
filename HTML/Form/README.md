@@ -13,7 +13,7 @@ The user registration form includes the following fields:
 - **Date-of-Birth (DOB)**: Allows users to select their date of birth.
 - **Age**: Asks for the user's age.
 - **Gender**: Provides options for selecting gender (Male, Female, Other).
-- **Resume**: Allows users to upload their resume or CV.
+- **Resume**: Allows users to upload their resume.
 
 <p align="center">
 <img width="600" alt="HTMLform" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/b8c02f5d-2c5e-4e38-b5a3-5ed91858c837">
