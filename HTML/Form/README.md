@@ -1,7 +1,7 @@
 
 # HTML User Registration Form
 
-This *HTML* folder contains *Form.html* file necessary to create a simple user registration form using HTML. This form allows users to provide their basic information for registration. 
+This *HTML* folder contains the *Form.html* file necessary to create a simple user registration form using HTML. This form allows users to provide their basic information for registration. 
 
 ## Form Fields
 
@@ -15,4 +15,6 @@ The user registration form includes the following fields:
 - **Gender**: Provides options for selecting gender (Male, Female, Other).
 - **Resume**: Allows users to upload their resume or CV.
 
-![alt image](https://1drv.ms/i/s!AlcT9cZrhtyRzX1Bn1ZFr8pAeZcs?e=aRBkfT)
+<p align="center">
+<img width="600" alt="HTMLform" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/b8c02f5d-2c5e-4e38-b5a3-5ed91858c837">
+</p>
