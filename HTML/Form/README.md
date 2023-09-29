@@ -1,7 +1,7 @@
 
 # HTML User Registration Form
 
-This *HTML* folder contains *Form.html* file necessary to create a simple user registration form using HTML. This form allows users to provide their basic information for registration. 
+This *HTML* folder contains the *Form.html* file necessary to create a simple user registration form using HTML. This form allows users to provide their basic information for registration. 
 
 ## Form Fields
 
