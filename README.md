@@ -45,19 +45,19 @@ Before diving in, make sure you have these essential tools installed:
 
 This internship focused on developing web applications and services using a variety of technologies. The repository is organized into the following folders:
 
-* **HTML**: Here, you'll find HTML files that define the structure of web pages.
+* [**HTML**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/HTML/Form/README.md): Here, you'll find HTML files that define the structure of web pages.
 
-* **CSS**: This folder contains stylesheets used to style the web pages.
+* [**CSS**](https://github.com/niveditakaur/Triweb-Learning/blob/main/CSS/README.md): This folder contains stylesheets used to style the web pages.
 
-* **JavaScript**: Core concepts of JavaScript that doesn't fit into the ES6 category.
+* [**JavaScript**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/JavaScript/README.md): Core concepts of JavaScript that doesn't fit into the ES6 category.
 
-* **Project**:
+* [**Project**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/Project/README.md):
      - **HTML-CSS-JS-Project**: Project containing the files and resources necessary to create a user registration form using HTML, CSS for styling, and JavaScript for functionality.
      - **BasicJSProject**: Project that utilizes HTML, CSS, and JavaScript to move a text element from one container to another based on the color selected by the user. 
 
-* **MySQL**: Fundamental concepts of MySQL and demonstrate how to execute basic database operations (Create, Read, Update, Delete).
+* [**MySQL**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/MySQL/README.md): Fundamental concepts of MySQL and demonstrate how to execute basic database operations (Create, Read, Update, Delete).
 
-* **ES6**: This folder contains JavaScript code written in ECMAScript 2015 (ES6) for modern web development.
+* [**ES6**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/ES6/README.md): This folder contains JavaScript code written in ECMAScript 2015 (ES6) for modern web development.
 
 * **NodeJS**: Use of Express framework to develop a basic application. This application will serve as a simple calculator that accepts input in JSON format, performs operations like addition, subtraction, multiplication, or division based on the requested URLs, and provides the resulting output.
 
