@@ -4,45 +4,45 @@ In this folder, you'll find a collection of JavaScript practice exercises to imp
 
 ## What's Inside?
 
-1. Concept1.html: **Change Text Content on Button Click**, how to change text on a web page when a button is clicked.
+- Concept1.html: **Change Text Content on Button Click**, how to change text on a web page when a button is clicked.
 
 https://github.com/niveditakaur/Triweb-Learning/assets/120108968/213eaff6-9aef-4aa8-9d45-76b1102359bc
 
-2. Concept2.html: **Toggle Text on Button Click**, discover how to switch text between two values when a button is clicked.
+- Concept2.html: **Toggle Text on Button Click**, discover how to switch text between two values when a button is clicked.
 
 https://github.com/niveditakaur/Triweb-Learning/assets/120108968/27808271-8a2e-4e33-b9cb-fd50f270c952
 
-3. Concept3.js: Find the **Greatest Number Among Three Numbers**, find and display the largest number from a group of three.
+- Concept3.js: Find the **Greatest Number Among Three Numbers**, find and display the largest number from a group of three.
 
-4. Concept4.js: Check **JavaScript Supports Functions**.
+- Concept4.js: Check **JavaScript Supports Functions**.
 
-5. Concept5.html: **Toggle Images on Click**, create an image toggle when clicking an element.
+- Concept5.html: **Toggle Images on Click**, create an image toggle when clicking an element.
 
 https://github.com/niveditakaur/Triweb-Learning/assets/120108968/3ac60447-01d0-4b00-8fff-40fe91bd5f34
 
-6. Concept6.html: **Validate Username**, check if a username meets specific criteria and provide feedback.
+- Concept6.html: **Validate Username**, check if a username meets specific criteria and provide feedback.
 
 https://github.com/niveditakaur/Triweb-Learning/assets/120108968/5525b68f-3c75-4c8c-b13a-3c69ebcb34de
 
-7. Concept7.js: **JavaScript is Case-Sensitive**, understanding that JavaScript distinguishes between upper and lower case.
+- Concept7.js: **JavaScript is Case-Sensitive**, understanding that JavaScript distinguishes between upper and lower case.
 
-8. Concept8.js: **Variable Hoisting**, explore how JavaScript allows variables to be used before they're officially declared.
+- Concept8.js: **Variable Hoisting**, explore how JavaScript allows variables to be used before they're officially declared.
 
-9. Concept9.js: **Variable Scope** in JavaScript.
+- Concept9.js: **Variable Scope** in JavaScript.
 
-10. Concept10.js: **Function Hoisting** in JavaScript, how functions can be used before they're defined.
+- Concept10.js: **Function Hoisting** in JavaScript, how functions can be used before they're defined.
 
-11. Concept11.js: **Constants** in JavaScript, get introduced to constants using the const keyword.
+- Concept11.js: **Constants** in JavaScript, get introduced to constants using the const keyword.
 
-12. Concept12.js: Running a JavaScript File on the System Using **Node**.
+- Concept12.js: Running a JavaScript File on the System Using **Node**.
 
-13. Concept13.js: **Username and Password Validation** Using JavaScript.
+- Concept13.js: **Username and Password Validation** Using JavaScript.
 
-14. Concept14.js: **Different Data Types** in JavaScript.
+- Concept14.js: **Different Data Types** in JavaScript.
 
-15. Concept15.js: **Data Type Conversion** in JavaScript.
+- Concept15.js: **Data Type Conversion** in JavaScript.
 
-16. FormValidation.html: **Create form validation rules**, including checking for empty fields, validating email patterns, and verifying 10-digit phone numbers starting with 6, 7, 8, or 9.
+- FormValidation.html: **Create form validation rules**, including checking for empty fields, validating email patterns, and verifying 10-digit phone numbers starting with 6, 7, 8, or 9.
 
 <p align="center">
 <img alt="Time-Table" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/f3818fff-96cb-4a18-9a7b-c9f09dde96db">
