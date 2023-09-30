@@ -10,7 +10,7 @@ The **Form** subfolder contains an HTML file that presents a user registration f
      - **Form.css**: The CSS file that styles the registration form. It defines the visual layout, colors, fonts, and spacing to make the form visually appealing and user-friendly.
 
 <p align="center">
-<img width="600" alt="CSSform" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/5f41dc6f-d2b2-443c-a2d8-5d273b6ac716">
+<img alt="CSSform" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/5f41dc6f-d2b2-443c-a2d8-5d273b6ac716">
 </p>
 
 ## 2. Time-Table
