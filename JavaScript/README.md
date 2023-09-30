@@ -6,9 +6,11 @@ In this folder, you'll find a collection of JavaScript practice exercises to imp
 
 1. Concept1.html: **Change Text Content on Button Click**, how to change text on a web page when a button is clicked.
 
-https://github.com/niveditakaur/Triweb-Learning/assets/120108968/0a56f4f2-c9d2-49b7-a4e9-aec4fe2256ec
+https://github.com/niveditakaur/Triweb-Learning/assets/120108968/213eaff6-9aef-4aa8-9d45-76b1102359bc
 
 2. Concept2.html: **Toggle Text on Button Click**, discover how to switch text between two values when a button is clicked.
+
+https://github.com/niveditakaur/Triweb-Learning/assets/120108968/27808271-8a2e-4e33-b9cb-fd50f270c952
 
 3. Concept3.js: Find the **Greatest Number Among Three Numbers**, find and display the largest number from a group of three.
 
@@ -16,7 +18,11 @@ https://github.com/niveditakaur/Triweb-Learning/assets/120108968/0a56f4f2-c9d2-4
 
 5. Concept5.html: **Toggle Images on Click**, create an image toggle when clicking an element.
 
+https://github.com/niveditakaur/Triweb-Learning/assets/120108968/3ac60447-01d0-4b00-8fff-40fe91bd5f34
+
 6. Concept6.html: **Validate Username**, check if a username meets specific criteria and provide feedback.
+
+https://github.com/niveditakaur/Triweb-Learning/assets/120108968/5525b68f-3c75-4c8c-b13a-3c69ebcb34de
 
 7. Concept7.js: **JavaScript is Case-Sensitive**, understanding that JavaScript distinguishes between upper and lower case.
 
@@ -37,5 +43,9 @@ https://github.com/niveditakaur/Triweb-Learning/assets/120108968/0a56f4f2-c9d2-4
 15. Concept15.js: **Data Type Conversion** in JavaScript.
 
 16. FormValidation.html: **Create form validation rules**, including checking for empty fields, validating email patterns, and verifying 10-digit phone numbers starting with 6, 7, 8, or 9.
+
+<p align="center">
+<img alt="Time-Table" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/f3818fff-96cb-4a18-9a7b-c9f09dde96db">
+</p>
 
 #### *Enjoy practicing JavaScript and improving your skills with these examples! If you have questions or need assistance, feel free to reach out.*
