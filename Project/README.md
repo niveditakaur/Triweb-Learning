@@ -1,4 +1,3 @@
-
 # Project
 
 This folder contains two subfolders, each with its own project, designed to showcase different aspects of web development and JavaScript programming.
