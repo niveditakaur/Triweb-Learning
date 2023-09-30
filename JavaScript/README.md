@@ -45,7 +45,7 @@ https://github.com/niveditakaur/Triweb-Learning/assets/120108968/5525b68f-3c75-4
 - FormValidation.html: **Create form validation rules**, including checking for empty fields, validating email patterns, and verifying 10-digit phone numbers starting with 6, 7, 8, or 9.
 
 <p align="center">
-<img alt="Time-Table" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/f3818fff-96cb-4a18-9a7b-c9f09dde96db">
+<img alt="form" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/f3818fff-96cb-4a18-9a7b-c9f09dde96db">
 </p>
 
 #### *Enjoy practicing JavaScript and improving your skills with these examples! If you have questions or need assistance, feel free to reach out.*
