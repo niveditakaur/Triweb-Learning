@@ -10,9 +10,9 @@ This section of the NodeJS folder contains a simple calculator application imple
 
 * **Cal.js**: It sets up the Express.js server and defines the routes for the calculator operations. Additionally, it listens on port 3000 for incoming requests.
 
-* **calculator.js (Router)**: serves as the router for the calculator application. It handles incoming HTTP requests and routes them to the appropriate controller methods based on the requested mathematical operation.
+* **calculator.js (routers)**: serves as the router for the calculator application. It handles incoming HTTP requests and routes them to the appropriate controller methods based on the requested mathematical operation.
 
-* **calculator.js (Controller)**: contains the logic for performing mathematical calculations. It includes four controller methods, each corresponding to a specific mathematical operation: addition, subtraction, multiplication, and division. These methods retrieve input data from the request, perform the calculation, and send the result as a response to the client.
+* **calculator.js (controllers)**: contains the logic for performing mathematical calculations. It includes four controller methods, each corresponding to a specific mathematical operation: addition, subtraction, multiplication, and division. These methods retrieve input data from the request, perform the calculation, and send the result as a response to the client.
 
 ## How to Use
 
@@ -47,13 +47,13 @@ This section of the NodeJS folder contains a comprehensive user registration app
 
 * **apps.js**: is the entry point for the user registration application. It sets up an Express.js server, initializes routes for handling user-related operations, and listens on port 3000 for incoming requests.
 
-* **user.js (Router)**: serves as the router for user-related routes. It routes incoming HTTP requests to the appropriate controller methods for user registration, retrieval, update, and deletion.
+* **user.js (routers)**: serves as the router for user-related routes. It routes incoming HTTP requests to the appropriate controller methods for user registration, retrieval, update, and deletion.
 
-* **user.js (Controller)**: contains the logic for user-related operations. It includes controller methods for user registration, retrieval, update, and deletion. These methods interact with the user model and respond to client requests accordingly.
+* **user.js (controllers)**: contains the logic for user-related operations. It includes controller methods for user registration, retrieval, update, and deletion. These methods interact with the user model and respond to client requests accordingly.
 
-* **user.js (Model)**: defines the data model for user registration. It includes schema definitions and methods for performing CRUD operations on user data, such as insertion, retrieval, updating, and deletion.
+* **user.js (models)**: defines the data model for user registration. It includes schema definitions and methods for performing CRUD operations on user data, such as insertion, retrieval, updating, and deletion.
 
-* **database.js (Util)**: provides utility functions for connecting to the MySQL database, executing queries, and managing database operations for the user registration application.
+* **database.js (util)**: provides utility functions for connecting to the MySQL database, executing queries, and managing database operations for the user registration application.
 
 ## How to Use
 
@@ -78,9 +78,13 @@ Ensure that you include the necessary request body data (e.g., user details) in 
 
 6. The server will respond with the status and appropriate messages based on the success or failure of the requested operation.
 
+#### *Example REQUEST RESPONSE (User Registration)*
+
 <p align="center">
 <img alt="example REQUEST RESPONSE" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/6d217fb2-0e09-43c2-9f3c-98c222414b69" width='800'>
 </p>
+
+#### *Example database*
 
 <p align="center">
 <img alt="database" src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/867c7cf2-72af-4b73-ba2b-4a1d95f281ea" width='800'>
