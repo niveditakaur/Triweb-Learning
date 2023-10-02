@@ -40,6 +40,9 @@ Before diving in, make sure you have these essential tools installed:
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
+![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
+![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## Project Overview
 
@@ -59,7 +62,9 @@ This internship focused on developing web applications and services using a vari
 
 * [**ES6**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/ES6/README.md): This folder contains JavaScript code written in ECMAScript 2015 (ES6) for modern web development.
 
-* **NodeJS**: Use of Express framework to develop a basic application. This application will serve as a simple calculator that accepts input in JSON format, performs operations like addition, subtraction, multiplication, or division based on the requested URLs, and provides the resulting output.
+* [**NodeJS**](https://github.com/niveditakaur/Triweb-Learning/blob/98e7657771916a1cdc45b2c8826d3022c5bf82df/NodeJS/README.md): Use of Express framework to develop a basic application. This application will serve as a simple calculator that accepts input in JSON format, performs operations like addition, subtraction, multiplication, or division based on the requested URLs, and provides the resulting output.
+
+* [**MongoDB**](https://github.com/niveditakaur/Triweb-Learning/blob/98e7657771916a1cdc45b2c8826d3022c5bf82df/MongoDB/README.md): This section of the repository focuses on MongoDB, a NoSQL database technology used in web development.
 
 ## 🔗 Connect with me:
 
