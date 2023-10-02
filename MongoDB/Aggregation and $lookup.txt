@@ -1,0 +1,14 @@
+//INSERT
+db.customer.insertOne({cname:"Nivedita"})
+db.books.insertMany([{bname:"ABC",price:500},{bname:"Computer",price:600},{bname:"Maths",price:400}])
+
+//CONNECTION WITH MANY
+db.customer.updateOne({_id: ObjectId("651ab1eefe9449b165e4e041")}, {$set:{favbooks:[ObjectId("651ab341fe9449b165e4e042"),ObjectId("651ab341fe9449b165e4e043"),]}})
+
+db.customer.insertOne({cname:"Akshara",favbooks:[ObjectId("651ab341fe9449b165e4e044")]})
+
+//DISPLAY
+db.customer.find()
+
+//CONNECT BOOKS AND CUSTOMER USING AGGREGATE $LOOKUP
+db.customer.aggregate([{$lookup:{from:"books",localField:"favbooks",foreignField:"_id",as:"FavouriteBookData"}}])
