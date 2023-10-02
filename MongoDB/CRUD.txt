@@ -1,0 +1,15 @@
+//INSERT
+db.myfirstcollection.insertOne({name: "Aditya" , mobile: 374856})
+db.myfirstcollection.insertMany([{name: "Pooja", email:"abc@gmail.com"},{name:"Ankit", mobile:"98773", location:"India"}])
+
+//DISPLAY
+db.myfirstcollection.find()
+
+//DISPLAY a particular record
+db.myfirstcollection.find({name:"Pooja"})
+
+//UPDATE
+db.col.updateOne({name:"Ankit"},{$set:{location:"Nepal"}})
+
+//DELETE
+db.col.deleteOne({name:"Aditya"})
