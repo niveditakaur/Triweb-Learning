@@ -1,0 +1,8 @@
+//FIND BOOK OF GIVEN PRICE
+db.books.find({price:600})
+
+//FIND BOOK OF GIVEN PRICE
+db.books.find({price:{$in:[400,600]}})
+
+//FIND BOOK NOT OF GIVEN PRICE
+db.books.find({price:{$nin:[400,600]}})
