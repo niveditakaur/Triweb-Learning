@@ -4,7 +4,7 @@
 
 # TriwebAPI Internship Repository
 
-Welcome to my TriwebAPI Internship repository! This repository contains the code and resources I worked on during my 3-month MERN stack internship. Here, you will find folders for various technologies and languages used in the project.
+Welcome to my TriwebAPI Internship repository! This repository contains the code and resources I worked on during my MERN stack internship. Here, you will find folders for various technologies and languages used in the project.
 
 ## Tools You'll Need
 
@@ -43,6 +43,9 @@ Before diving in, make sure you have these essential tools installed:
 ![Express](https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
 ![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+![npm](https://img.shields.io/badge/npm-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Project Overview
 
@@ -66,20 +69,22 @@ This internship focused on developing web applications and services using a vari
 
 * [**MongoDB**](https://github.com/niveditakaur/Triweb-Learning/blob/98e7657771916a1cdc45b2c8826d3022c5bf82df/MongoDB/README.md): This section of the repository focuses on MongoDB, a NoSQL database technology used in web development.
 
+* [**TypeScript**](https://github.com/niveditakaur/Triweb-Learning/blob/b4722623ac3c6dac23b45283d04271c386bae91c/TypeScript/README.md): This folder contains practice examples of how to convert Node.js programs to TypeScript with the concept of router, controller, model, and distribution (dist).
+
 ## 🔗 Connect with me:
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niveditakaur/)
+[![linkedin](https://img.shields.io/badge/NiveditaKaur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niveditakaur/)
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NiveditaKaur)
+[![twitter](https://img.shields.io/badge/niveditakaur-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NiveditaKaur)
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/niveditakaurr/)
+[![Email](https://img.shields.io/badge/niveditakaur5244%40gmail.com-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:niveditakaur5244@gmail.com)
 
 ## References:
 
 ### Tutor: Sayed Azhar Sabri
 
-###### [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@codebyheart )
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@codebyheart )
 
-###### [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sayedazharsabri)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sayedazharsabri)
 
-###### [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayedazharsabri/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayedazharsabri/)
