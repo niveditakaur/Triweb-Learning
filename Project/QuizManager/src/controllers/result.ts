@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express";
+import { RequestHandler } from "express";
 import Result from "../models/result";
 import ProjectError from "../helper/error";
 
@@ -8,7 +8,7 @@ interface returnResponse {
     data: {} | []
   }
 
-const getResult = async (req: Request, res: Response, next: NextFunction) => {
+const getResult:RequestHandler = async (req, res, next) => {
     try {
         let result;
         if (!!req.params.resultId) {
