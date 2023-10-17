@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from "express";
+import { RequestHandler } from "express";
 import Quiz from "../models/quiz";
 import ProjectError from "../helper/error";
 import Result from "../models/result";
@@ -11,7 +11,7 @@ interface returnResponse {
   data: {} | []
 }
 
-const startExam = async (req: Request, res: Response, next: NextFunction) => {
+const startExam:RequestHandler = async (req, res, next) => {
   try {
     const quizId = req.params.quizId;
     const quiz = await Quiz.findById(quizId, {
@@ -42,7 +42,7 @@ const startExam = async (req: Request, res: Response, next: NextFunction) => {
   res.send(req.params.quizId);
 };
 
-const submitExam = async (req: Request, res: Response, next: NextFunction) => {
+const submitExam:RequestHandler = async (req, res, next) => {
   try {
     const quizId = req.body.quizId;
     const attempted_question = req.body.attempted_question;
