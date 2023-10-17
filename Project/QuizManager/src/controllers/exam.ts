@@ -4,12 +4,7 @@ import ProjectError from "../helper/error";
 import Result from "../models/result";
 
 import { isNamedExportBindings } from "typescript";
-
-interface returnResponse {
-  status: "success" | "error", 
-  message: String,
-  data: {} | []
-}
+import {returnResponse} from "../utils/interface";
 
 const startExam:RequestHandler = async (req, res, next) => {
   try {
