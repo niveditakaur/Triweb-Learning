@@ -9,14 +9,9 @@ import examRoute from "./routes/exam";
 import resultRoute from "./routes/result";
 
 import ProjectError from "./helper/error";
+import {returnResponse} from "./utils/interface";
 
 const app = express();
-
-interface returnResponse {
-  status: "success" | "error";
-  message: String;
-  data: {} | [];
-}
 
 const connectionString = process.env.CONNECTION_STRING || "";
 

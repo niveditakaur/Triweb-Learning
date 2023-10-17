@@ -1,12 +1,7 @@
 import { RequestHandler } from "express";
 import Result from "../models/result";
 import ProjectError from "../helper/error";
-
-interface returnResponse {
-    status: "success" | "error",
-    message: String,
-    data: {} | []
-  }
+import {returnResponse} from "../utils/interface";
 
 const getResult:RequestHandler = async (req, res, next) => {
     try {

@@ -4,12 +4,7 @@ import {validationResult} from 'express-validator';
 
 import Quiz from "../models/quiz";
 import ProjectError from "../helper/error";
-
-interface returnResponse {
-  status: "success" | "error",
-  message: String,
-  data: {} | []
-}
+import {returnResponse} from "../utils/interface";
 
 const createQuiz:RequestHandler = async (req, res, next) => {
   try {
