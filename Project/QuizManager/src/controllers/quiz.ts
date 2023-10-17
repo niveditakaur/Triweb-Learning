@@ -1,4 +1,6 @@
 import { Request, Response, NextFunction } from "express";
+import {validationResult} from 'express-validator';
+
 
 import Quiz from "../models/quiz";
 import ProjectError from "../helper/error";
@@ -11,6 +13,15 @@ interface returnResponse {
 
 const createQuiz = async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const validateError = validationResult(req);
+        if (!validateError.isEmpty()) {
+            const err = new ProjectError("Validation failed!");
+            err.statusCode = 422; //for invalid fields
+            err.data = validateError.array();
+            throw err;
+
+        }
+
     const created_by = req.userId;
     const name = req.body.name;
     const questions_list = req.body.questions_list;
@@ -68,6 +79,14 @@ const getQuiz = async (req: Request, res: Response, next: NextFunction) => {
 
 const updateQuiz = async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const validateError = validationResult(req);
+        if (!validateError.isEmpty()) {
+            const err = new ProjectError("Validation failed!");
+            err.statusCode = 422; //for invalid fields
+            err.data = validateError.array();
+            throw err;
+
+        }
     const quizId = req.body._id;
     const quiz = await Quiz.findById(quizId);
     if (!quiz) {
