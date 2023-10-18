@@ -60,6 +60,7 @@ This internship focused on developing web applications and services using a vari
 * [**Project**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/Project/README.md):
      - **HTML-CSS-JS-Project**: Project containing the files and resources necessary to create a user registration form using HTML, CSS for styling, and JavaScript for functionality.
      - **BasicJSProject**: Project that utilizes HTML, CSS, and JavaScript to move a text element from one container to another based on the color selected by the user. 
+     - **QuizManager**: An application where users can Register, login, update, their account and also user can create, update,publish quiz and get results.
 
 * [**MySQL**](https://github.com/niveditakaur/Triweb-Learning/blob/06ca389afb93f1e5e85d933d9e20d0d392bde3b8/MySQL/README.md): Fundamental concepts of MySQL and demonstrate how to execute basic database operations (Create, Read, Update, Delete).
 
