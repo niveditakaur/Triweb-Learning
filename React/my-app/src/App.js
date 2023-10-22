@@ -1,20 +1,16 @@
-import FirstComponent from "./components/FirstComponent";
-import Backdrop from "./components/backdrop";
-import {useState} from 'react';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
-  const [modalOpen, setModalOpen]=useState(false); 
-  const modalCloseHandler=()=>{
-    setModalOpen(false);
-  }
-  const openModalHandler = ()=>{
-    setModalOpen(true);
-  }
   return (
     <div>
-      <h1>Hi App!</h1>
-      {modalOpen?<FirstComponent owner="Nivedita" closeModal={modalCloseHandler}/>:null}
-      {modalOpen?<Backdrop/>:null}
-      <button onClick={openModalHandler}>Open Modal</button>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </div>
   );
 }
