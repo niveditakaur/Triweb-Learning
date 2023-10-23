@@ -22,7 +22,7 @@ function AddProductForm(props) {
             price,
             description
         }
-        console.log(product);
+        props.addProductHandler(product);
     }
     return <CustomWrapper>
         <form className={Styles.form} onSubmit={submitHandler}>
