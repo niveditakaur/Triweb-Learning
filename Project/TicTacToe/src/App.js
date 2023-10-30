@@ -26,6 +26,8 @@ function Board({ xIsNext, squares, onPlay }) {
   let status;
   if (winner) {
     status = 'Winner: ' + winner;
+  } else if (squares.every((square) => square)) {
+    status = 'It\'s a tie!';
   } else {
     status = 'Next player: ' + (xIsNext ? 'X' : 'O');
   }
@@ -55,6 +57,7 @@ function Board({ xIsNext, squares, onPlay }) {
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
+  const [winner, setWinner] = useState(null);
   const xIsNext = currentMove % 2 === 0;
   const currentSquares = history[currentMove];
 
@@ -62,10 +65,16 @@ export default function Game() {
     const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
     setHistory(nextHistory);
     setCurrentMove(nextHistory.length - 1);
+
+    const newWinner = calculateWinner(nextSquares);
+    if (newWinner || nextSquares.every((square) => square)) {
+      setWinner(newWinner || 'Tie');
+    }
   }
 
   function jumpTo(nextMove) {
     setCurrentMove(nextMove);
+    setWinner(null);
   }
 
   const moves = history.map((squares, move) => {
@@ -90,6 +99,18 @@ export default function Game() {
       <div className="game-info">
         <ol>{moves}</ol>
       </div>
+      {winner && (
+        <div className="overlay">
+          <div className="winner-popup">
+            {winner === 'Tie' ? (
+              <h2>It's a Tie!</h2>
+            ) : (
+              <h2>Winner: {winner}</h2>
+            )}
+            <button onClick={() => jumpTo(0)}>Start a New Game</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
