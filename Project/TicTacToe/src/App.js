@@ -77,6 +77,12 @@ export default function Game() {
     setWinner(null);
   }
 
+  function startNewGame() {
+    setHistory([Array(9).fill(null)]);
+    setCurrentMove(0);
+    setWinner(null);
+  }
+
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
@@ -98,19 +104,19 @@ export default function Game() {
       </div>
       <div className="game-info">
         <ol>{moves}</ol>
-      </div>
-      {winner && (
-        <div className="overlay">
-          <div className="winner-popup">
-            {winner === 'Tie' ? (
-              <h2>It's a Tie!</h2>
-            ) : (
-              <h2>Winner: {winner}</h2>
-            )}
-            <button onClick={() => jumpTo(0)}>Start a New Game</button>
+        {winner && (
+          <div className="overlay">
+            <div className="winner-popup">
+              {winner === 'Tie' ? (
+                <h2>It's a Tie!</h2>
+              ) : (
+                <h2>Winner: {winner}</h2>
+              )}
+              <button onClick={startNewGame}>Start a New Game</button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
