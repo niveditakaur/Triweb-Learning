@@ -101,7 +101,7 @@ export default function Game() {
 
   const backgroundImageStyle = {
     backgroundImage:
-      "url('https://videohive.img.customer.envatousercontent.com/files/1a8011a5-217f-4a8a-9618-c2ddefbe08e3/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=c2d3e49302699ffe29d8b925ff6bad7c')",
+      "url('https://drive.google.com/uc?id=1tgrfBVgyTWmPJEobTBjk92E2_nkopspI')",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",

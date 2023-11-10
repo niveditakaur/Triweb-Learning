@@ -43,8 +43,8 @@ ul {
 }
 
 .square {
-  background: #7fd8f4; 
-  border: 2px solid #333; 
+  background: #814fff    ; 
+  border: 2px solid #2b0f71   ; 
   float: left;
   font-size: 50px;
   font-weight: bold;
@@ -56,7 +56,7 @@ ul {
   transition: background 0.3s, color 0.3s;
   border-radius: 8px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-  color: #333; 
+  color: #ddd4d4; 
   font-family: 'Arial', sans-serif;
   text-transform: uppercase; 
   letter-spacing: 2px; 
@@ -64,7 +64,7 @@ ul {
 }
 
 .square:hover {
-  background: #56c9ec; 
+  background: #5d2ed6; 
   color: white;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
 }
@@ -105,7 +105,7 @@ ul {
 }
 
 li button {
-  background-color: #093d74; 
+  background-color: #421ba4 ; 
   color: white;
   border: none; 
   padding: 10px 40px; 
@@ -117,7 +117,7 @@ li button {
 }
 
 li button:hover {
-  background-color: #43b1c4;
+  background-color: #2b0f71;
 }
 
 .overlay {
@@ -135,11 +135,11 @@ li button:hover {
 
 .winner-popup {
   background: #fff;
-  border: 2px solid #333;
+  border: 5px solid #e8dfdf;
   border-radius: 10px;
   padding: 40px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .winner-popup h2 {
@@ -149,7 +149,7 @@ li button:hover {
 }
 
 .winner-popup button {
-  background: #07b2d0;
+  background: #311183;
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -160,7 +160,7 @@ li button:hover {
 }
 
 .winner-popup button:hover {
-  background: #007bff;
+  background: #5d2ed6;
 }
 
 div.game-info ol {
@@ -176,7 +176,7 @@ div.game-info ol li button {
   margin-bottom: 10px;
   font-size: 40px;
   font-weight: bold;
-  color: #333;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
