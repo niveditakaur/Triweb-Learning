@@ -162,16 +162,24 @@ const SocialLink = styled.a`
   text-align: center;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+  margin: 8px;
+  svg {
+    width: 24px;
+    height: auto;
+    margin-right: 6px;
+  }
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
-  svg {
-    width: 100%;
-    height: auto;
-    max-width: 2rem;
-    max-height: 2rem;
-    border-radius: 50%;
-    overflow: hidden;
+
+  @media (max-width: 960px) {
+    font-size: 14px; 
+  }
+
+  @media (max-width: 640px) {
+    font-size: 12px;
+    margin: 4px; 
   }
 `;
 
@@ -238,14 +246,14 @@ const ResumeButton = styled.a`
     225deg,
     #d198c5,
     #957186
-  ); /* Gradient with pinkish colors */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softened box shadow */
+  ); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   text-transform: uppercase;
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
-    filter: brightness(1.1); /* Slightly brighten on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    filter: brightness(1.1);
   }
 
   @media (max-width: 640px) {
