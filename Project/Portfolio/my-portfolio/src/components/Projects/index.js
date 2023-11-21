@@ -240,6 +240,7 @@ const Projects = ({ project, setOpenModal }) => {
         customDot={<CustomDot />}
         showDots
         infinite
+        centerMode={true}
         speed={500}
         slidesToShow={2}
         slidesToScroll={1}
