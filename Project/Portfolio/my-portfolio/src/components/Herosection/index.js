@@ -162,16 +162,24 @@ const SocialLink = styled.a`
   text-align: center;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+  margin: 8px;
+  svg {
+    width: 24px; /* Adjust icon size */
+    height: auto;
+    margin-right: 6px; /* Adjust spacing between icon and text */
+  }
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
-  svg {
-    width: 100%;
-    height: auto;
-    max-width: 2rem;
-    max-height: 2rem;
-    border-radius: 50%;
-    overflow: hidden;
+
+  @media (max-width: 960px) {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  @media (max-width: 640px) {
+    font-size: 12px; /* Further reduce font size for smaller screens */
+    margin: 4px; /* Adjust margin for smaller screens */
   }
 `;
 
