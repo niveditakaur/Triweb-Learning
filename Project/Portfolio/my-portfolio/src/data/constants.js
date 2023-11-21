@@ -163,9 +163,10 @@ export const projects = [
     id: 0,
     title: "Personal Portfolio",
     date: "Nov 2023",
-    description: "Professional page for personal portfolio showcase.",
-    image: "",
-    tags: ["React"],
+    description:
+      "Developed a React-based portfolio with sections for About, Skills, Experience, Projects, Education, and Contact using Firebase integration. Implemented a sleek navbar, engaging animations, and utilized libraries like Styled Components, Toastify, Material-UI, Typewriter Effect, React-Icons/FontAwesome, and a Carousel for a dynamic and visually appealing user experience.",
+    image: "https://drive.google.com/uc?id=1lPIWGPhRv8Nb9QqAo_sPI-NcR1MvGshk",
+    tags: ["React", "Firebase"],
     github:
       "https://github.com/niveditakaur/Triweb-Learning/tree/main/Project/Portfolio/my-portfolio",
     webapp: "https://niveditakaurportfolio.vercel.app/",
@@ -174,7 +175,8 @@ export const projects = [
     id: 1,
     title: "TicTacToe",
     date: "Oct 2023",
-    description: "This project is a Tic Tac Toe game created with React. It lets two players take turns on a 3x3 grid, displays the game status and winner, and includes a background image. The code is organized into components, making it easy to understand and showcasing how React can be used to build interactive games on the web.",
+    description:
+      "This project is a Tic Tac Toe game created with React. It lets two players take turns on a 3x3 grid, displays the game status and winner, and includes a background image. The code is organized into components, making it easy to understand and showcasing how React can be used to build interactive games on the web.",
     image: "https://drive.google.com/uc?id=1_x-4idW0lGGGEvjzt_Pqjw3z4lCJOMkU",
     tags: ["React"],
     github:
@@ -185,20 +187,23 @@ export const projects = [
     id: 2,
     title: "Book Store",
     date: "Oct 2023 - Nov 2023",
-    description: "A Book store website made with MERN Stack.",
-    image: "",
+    description:
+      "Created a React-based E-Book Store where users explore and buy products, save favorites, and enjoy a smooth experience on any device. Combined React, MongoDB, Node.js, and Express.js for a powerful yet user-friendly platform. Styled with CSS Modules for a clean interface that adapts seamlessly to mobile and desktop screens.",
+    image:
+      "https://i.pinimg.com/736x/98/07/82/9807829ae662048b69570a65c8077e4e.jpg",
     tags: ["MongoDB", "Express", "React", "NodeJS", "JavaScript"],
-    github:
-      "",
+    github: "https://github.com/niveditakaur/Triweb-Learning/tree/main/React",
     webapp: "",
   },
   {
     id: 3,
-    title: "Quiz App",
+    title: "Quiz App Backend",
     date: "Oct 2023 - Nov 2023",
-    description: "A quiz app made with MERN Stack.",
-    image: "",
-    tags: ["MongoDB", "Express", "React", "NodeJS", "JavaScript"],
+    description:
+      "Designed a robust Quiz Manager Backend API enabling quiz creation, publishing, and management functions. This backend employs routers, controllers, and modules to handle quiz operations, integrating JWT-based authentication for enhanced security. Leveraging MongoDB for scalability, it facilitates quiz creation, publishing, user interaction, and comprehensive report generation. Ideal for integration into frontend applications or direct interaction via Postman, it provides a secure and scalable solution for managing quizzes.",
+    image:
+      "https://i.pinimg.com/736x/21/de/6a/21de6aa253ae7842546c9258b5f9495d.jpg",
+    tags: ["MongoDB", "Express", "React", "NodeJS", "Postman", "JavaScript"],
     github:
       "https://github.com/niveditakaur/Triweb-Learning/tree/main/Project/QuizManager",
     webapp: "",
