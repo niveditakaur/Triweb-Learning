@@ -49,8 +49,8 @@ const Title = styled.div`
 
 const Image = styled.img`
    {
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 450px;
     object-fit: cover;
     margin: 0 auto;
     display: block;
@@ -143,9 +143,15 @@ const Button = styled.a`
 `;
 
 const ProjectModal = ({ project, onClose }) => {
+  const handleContainerClick = (event) => {
+    if (event.target === event.currentTarget) {
+      onClose();
+    }
+    event.stopPropagation();
+  }; 
   return (
     <Modal open={Boolean(project)} onClose={onClose}>
-      <Container>
+      <Container onClick={handleContainerClick}>
         <Wrapper>
           <CloseRounded
             style={{
