@@ -38,7 +38,7 @@ const Arrow = styled.div`
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
-  background-color: #957186; 
+  background-color: #957186;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -48,14 +48,30 @@ const Arrow = styled.div`
   font-size: 24px;
 `;
 
+const CustomCarouselItem = styled.div`
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+  }
+`;
+
 const Project = styled.div`
-  width: 100%;
-  max-width: 500px;
+  width: 380px;
   background: ${({ theme }) => theme.card};
   border: 0.1px solid #854ce6;
-  box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
   border-radius: 16px;
   padding: 18px 36px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; /
+  align-items: center;
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -66,11 +82,12 @@ const Project = styled.div`
   }
   img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
+    align-self: center;
   }
 
   h2 {
@@ -143,14 +160,15 @@ const CustomCarousel = styled(Carousel)`
   .react-multi-carousel-item {
     padding: 0 15px;
   }
+  margin: auto;
 `;
 
 const CustomDot = styled.div`
   width: 12px;
   height: 12px;
-  margin-right:5px;
+  margin-right: 5px;
   border-radius: 50%;
-  background-color: ${({ active }) => (active ? '#957186' : '#bbb')};
+  background-color: ${({ active }) => (active ? "#957186" : "#bbb")};
   cursor: pointer;
 `;
 
@@ -189,23 +207,24 @@ const Projects = ({ project, setOpenModal }) => {
   };
 
   const proj = projects.map((item) => (
-    <Project
-      key={item.id}
-      onClick={() => {
-        setSelectedProject(item);
-        setOpenModal({ state: true, project: item });
-      }}
-    >
-      <img src={item.image} alt={item.title} />
-      <Tags>
-        {item.tags?.map((tag, index) => (
-          <Tag key={index}>{tag}</Tag>
-        ))}
-      </Tags>
-      <h2>{item.title}</h2>
-      <date>{item.date}</date>
-      <description>{item.description}</description>
-    </Project>
+    <CustomCarouselItem key={item.id}>
+      <Project
+        onClick={() => {
+          setSelectedProject(item);
+          setOpenModal({ state: true, project: item });
+        }}
+      >
+        <img src={item.image} alt={item.title} />
+        <Tags>
+          {item.tags?.map((tag, index) => (
+            <Tag key={index}>{tag}</Tag>
+          ))}
+        </Tags>
+        <h2>{item.title}</h2>
+        <date>{item.date}</date>
+        <description>{item.description}</description>
+      </Project>
+    </CustomCarouselItem>
   ));
   return (
     <Container id="projects">
