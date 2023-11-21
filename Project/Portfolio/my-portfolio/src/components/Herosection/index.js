@@ -164,9 +164,9 @@ const SocialLink = styled.a`
   transition: color 0.2s ease-in-out;
   margin: 8px;
   svg {
-    width: 24px; /* Adjust icon size */
+    width: 24px;
     height: auto;
-    margin-right: 6px; /* Adjust spacing between icon and text */
+    margin-right: 6px;
   }
 
   &:hover {
@@ -174,12 +174,12 @@ const SocialLink = styled.a`
   }
 
   @media (max-width: 960px) {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 14px; 
   }
 
   @media (max-width: 640px) {
-    font-size: 12px; /* Further reduce font size for smaller screens */
-    margin: 4px; /* Adjust margin for smaller screens */
+    font-size: 12px;
+    margin: 4px; 
   }
 `;
 
@@ -246,14 +246,14 @@ const ResumeButton = styled.a`
     225deg,
     #d198c5,
     #957186
-  ); /* Gradient with pinkish colors */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softened box shadow */
+  ); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   text-transform: uppercase;
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
-    filter: brightness(1.1); /* Slightly brighten on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    filter: brightness(1.1);
   }
 
   @media (max-width: 640px) {
