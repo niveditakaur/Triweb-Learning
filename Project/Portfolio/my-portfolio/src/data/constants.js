@@ -2,7 +2,7 @@ export const Bio = {
   name: "Nivedita Kaur",
   roles: ["Full Stack Developer", "Graphic Designer"],
   description:
-    "I'm a determined and flexible individual, always eager to embrace fresh challenges. With a keen eye for aesthetics and a passion for coding, I aim to bring together creativity and technology. My ultimate goal is to craft experiences that are not only meaningful but also unforgettable for users.",
+    "with a keen eye for aesthetics and a passion for coding, I aim to bring together creativity and technology. I'm a determined and flexible individual, always eager to embrace fresh challenges. My ultimate goal is to craft experiences that are not only meaningful but also unforgettable for users.",
   github: "https://github.com/niveditakaur",
   resume:
     "https://drive.google.com/file/d/1QbYtVw8wAaCRV-UtjQfqmp4wOPOV0_-H/view?usp=sharing",
@@ -66,30 +66,6 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon.png",
-      },
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image: "https://cdn-icons-png.flaticon.com/512/226/226777.png",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
     ],
   },
@@ -185,20 +161,22 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Quiz App",
-    date: "Oct 2023 - Nov 2023",
-    description: "A quiz app made with MERN Stack.",
-    image: "",
-    tags: ["MongoDB", "Express", "React", "NodeJS", "JavaScript"],
+    title: "Personal Portfolio",
+    date: "Nov 2023",
+    description:
+      "Developed a React-based portfolio with sections for About, Skills, Experience, Projects, Education, and Contact using Firebase integration. Implemented a sleek navbar, engaging animations, and utilized libraries like Styled Components, Toastify, Material-UI, Typewriter Effect, React-Icons/FontAwesome, and a Carousel for a dynamic and visually appealing user experience.",
+    image: "https://drive.google.com/uc?id=1lPIWGPhRv8Nb9QqAo_sPI-NcR1MvGshk",
+    tags: ["React", "Firebase"],
     github:
-      "https://github.com/niveditakaur/Triweb-Learning/tree/main/Project/QuizManager",
-    webapp: "",
+      "https://github.com/niveditakaur/Triweb-Learning/tree/main/Project/Portfolio/my-portfolio",
+    webapp: "https://niveditakaurportfolio.vercel.app/",
   },
   {
     id: 1,
     title: "TicTacToe",
     date: "Oct 2023",
-    description: "This project is a Tic Tac Toe game created with React. It lets two players take turns on a 3x3 grid, displays the game status and winner, and includes a background image. The code is organized into components, making it easy to understand and showcasing how React can be used to build interactive games on the web.",
+    description:
+      "This project is a Tic Tac Toe game created with React. It lets two players take turns on a 3x3 grid, displays the game status and winner, and includes a background image. The code is organized into components, making it easy to understand and showcasing how React can be used to build interactive games on the web.",
     image: "https://drive.google.com/uc?id=1_x-4idW0lGGGEvjzt_Pqjw3z4lCJOMkU",
     tags: ["React"],
     github:
@@ -209,22 +187,25 @@ export const projects = [
     id: 2,
     title: "Book Store",
     date: "Oct 2023 - Nov 2023",
-    description: "A Book store website made with MERN Stack.",
-    image: "",
+    description:
+      "Created a React-based E-Book Store where users explore and buy products, save favorites, and enjoy a smooth experience on any device. Combined React, MongoDB, Node.js, and Express.js for a powerful yet user-friendly platform. Styled with CSS Modules for a clean interface that adapts seamlessly to mobile and desktop screens.",
+    image:
+      "https://i.pinimg.com/736x/98/07/82/9807829ae662048b69570a65c8077e4e.jpg",
     tags: ["MongoDB", "Express", "React", "NodeJS", "JavaScript"],
-    github:
-      "",
+    github: "https://github.com/niveditakaur/Triweb-Learning/tree/main/React",
     webapp: "",
   },
   {
     id: 3,
-    title: "TicTacToe",
-    date: "Oct 2023",
-    description: "This project is a website created with React.",
-    image: "",
-    tags: ["React"],
+    title: "Quiz App Backend",
+    date: "Oct 2023 - Nov 2023",
+    description:
+      "Designed a robust Quiz Manager Backend API enabling quiz creation, publishing, and management functions. This backend employs routers, controllers, and modules to handle quiz operations, integrating JWT-based authentication for enhanced security. Leveraging MongoDB for scalability, it facilitates quiz creation, publishing, user interaction, and comprehensive report generation. Ideal for integration into frontend applications or direct interaction via Postman, it provides a secure and scalable solution for managing quizzes.",
+    image:
+      "https://i.pinimg.com/736x/21/de/6a/21de6aa253ae7842546c9258b5f9495d.jpg",
+    tags: ["MongoDB", "Express", "React", "NodeJS", "Postman", "JavaScript"],
     github:
-      "",
+      "https://github.com/niveditakaur/Triweb-Learning/tree/main/Project/QuizManager",
     webapp: "",
   },
 ];
