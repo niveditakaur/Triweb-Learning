@@ -50,6 +50,10 @@ const Arrow = styled.div`
 
 const CustomCarouselItem = styled.div`
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the items */
+  align-items: center;
   transition: transform 0.3s ease-in-out;
   &:hover {
     transform: translateY(-5px);
@@ -68,9 +72,9 @@ const Project = styled.div`
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  justify-content: center; /
+  justify-content: center;
   align-items: center;
   @media (max-width: 768px) {
     max-width: 400px;
@@ -138,6 +142,8 @@ const Tags = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+  flex-wrap: nowrap;
+  overflow: hidden;
 `;
 
 const Tag = styled.span`
@@ -190,19 +196,23 @@ const Projects = ({ project, setOpenModal }) => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 3,
+      centerMode: true,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1290 },
       items: 3,
+      centerMode: true,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1290, min: 880 },
       items: 2,
+      centerMode: true,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 880, min: 0 },
       items: 1,
+      centerMode: true,
     },
   };
 
@@ -240,9 +250,9 @@ const Projects = ({ project, setOpenModal }) => {
         customDot={<CustomDot />}
         showDots
         infinite
-        centerMode={true}
+        focusOnSelect={true}
         speed={500}
-        slidesToShow={2}
+        slidesToShow={1}
         slidesToScroll={1}
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
