@@ -14,8 +14,13 @@ const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
-  @media (max-width: 960px) {
+  @media (max-width: 980px) {
     trastion: 0.8s all ease;
+    font-size: 0.95rem;
+  }
+  @media (max-width: 860px) {
+    trastion: 0.8s all ease;
+    font-size: 0.9rem;
   }
 `;
 
@@ -101,11 +106,12 @@ const GitHubButton = styled.a`
   justify-content: center;
   display: flex;
   align-items: center;
+  text-align: center;
   height: 70%;
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 10px;
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
@@ -114,8 +120,14 @@ const GitHubButton = styled.a`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 980px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 951px) {
     font-size: 14px;
+  }
+  @media screen and (max-width: 915px) {
+    font-size: 12px;
   }
 `;
 
