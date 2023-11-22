@@ -7,11 +7,11 @@ import { projects } from "../../data/constants";
 import ProjectModal from "../ProjectDetails";
 
 const Title = styled.div`
-  font-size: 42px;
+  font-size: 38px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -25,7 +25,7 @@ const Desc = styled.div`
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
@@ -95,7 +95,7 @@ const Project = styled.div`
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: left;
     color: ${({ theme }) => theme.text_secondary};
@@ -111,7 +111,7 @@ const Project = styled.div`
   Date {
     display: block;
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     color: ${({ theme }) => theme.text_secondary + 80};
     margin-bottom: 5px;
@@ -126,10 +126,9 @@ const Project = styled.div`
     color: ${({ theme }) => theme.text_secondary + 99};
     overflow: hidden;
     margin-top: 8px;
-    margin-bottom: 15px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
   }
@@ -147,7 +146,7 @@ const Tags = styled.div`
 `;
 
 const Tag = styled.span`
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 550;
   color: ${({ theme }) => theme.primary};
   background-color: ${({ theme }) => theme.primary + 15};
@@ -240,9 +239,8 @@ const Projects = ({ project, setOpenModal }) => {
     <Container id="projects">
       <Title>Projects</Title>
       <Desc>
-        I have worked on a wide range of projects. Explore my diverse portfolio
-        of Web apps and Graphic design projects, showcasing a fusion of
-        creativity and technology.
+        Explore my diverse portfolio of Web apps and Graphic design projects,
+        showcasing a fusion of creativity and technology.
       </Desc>
       <CustomCarousel
         responsive={responsive}
