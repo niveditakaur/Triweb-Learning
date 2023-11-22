@@ -18,10 +18,9 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  max-width: 800px;
-  width: 100%;
+  width: 800px;
   border-radius: 16px;
-  margin: 50px 12px;
+  margin: 20px 12px;
   height: min-content;
   background-color: ${({ theme }) => theme.card};
   color: ${({ theme }) => theme.text_primary};
@@ -49,8 +48,8 @@ const Title = styled.div`
 
 const Image = styled.img`
    {
-    width: 100%;
-    height: 450px;
+    width: 80%;
+    height: 350px;
     object-fit: cover;
     margin: 0 auto;
     display: block;
@@ -148,7 +147,7 @@ const ProjectModal = ({ project, onClose }) => {
       onClose();
     }
     event.stopPropagation();
-  }; 
+  };
   return (
     <Modal open={Boolean(project)} onClose={onClose}>
       <Container onClick={handleContainerClick}>
