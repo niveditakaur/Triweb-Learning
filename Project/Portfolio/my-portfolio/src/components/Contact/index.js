@@ -32,10 +32,10 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 42px;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 20px;
+font-size: 38px;
+text-align: center;
+font-weight: 600;
+margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -63,7 +63,7 @@ const ContactForm = styled.form`
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  margin-top: 28px;
+  margin-top: 20px;
   gap: 12px;
 `;
 
