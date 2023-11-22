@@ -174,12 +174,12 @@ const SocialLink = styled.a`
   }
 
   @media (max-width: 960px) {
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   @media (max-width: 640px) {
     font-size: 12px;
-    margin: 4px; 
+    margin: 4px;
   }
 `;
 
@@ -227,7 +227,7 @@ const SubTitle = styled.div`
   }
 `;
 
-const ResumeButton = styled.a`
+const ResumeButton = styled.button`
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -242,17 +242,15 @@ const ResumeButton = styled.a`
   font-size: 20px;
   font-weight: 600;
   transition: all 0.2s ease-in-out !important;
-  background: linear-gradient(
-    225deg,
-    #d198c5,
-    #957186
-  ); 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(225deg, #d198c5, #957186);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  border: none; /* Remove the black border */
+  outline: none;
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     filter: brightness(1.1);
   }
 
@@ -296,6 +294,19 @@ const WavingHand = styled.span`
 `;
 
 const Hero = () => {
+  const handleResumeDownload = () => {
+    const resumeUrl =
+      "https://drive.google.com/uc?export=download&id=1of_UGMrKWBjlOJhU4odQpOOqzZM5NyNw";
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.setAttribute(
+      "download",
+      "https://drive.google.com/uc?export=download&id=1of_UGMrKWBjlOJhU4odQpOOqzZM5NyNw"
+    );
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div id="about">
       <HeroContainer>
@@ -314,7 +325,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            <ResumeButton onClick={handleResumeDownload}>
               Check Résumé
             </ResumeButton>
           </HeroBottomContainer>
