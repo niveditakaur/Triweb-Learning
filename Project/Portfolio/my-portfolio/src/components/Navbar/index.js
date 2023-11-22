@@ -10,7 +10,7 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -108,7 +108,7 @@ const GitHubButton = styled.a`
   padding: 0 20px;
   font-weight: bold;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.6s ease-in-out;
   :hover {
     background: ${({ theme }) => theme.primary};
@@ -122,7 +122,7 @@ const GitHubButton = styled.a`
 const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   color: ${({ theme }) => theme.primary};
 `;
 
@@ -197,7 +197,7 @@ const Navbar = () => {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">Contact</NavLink>          
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
