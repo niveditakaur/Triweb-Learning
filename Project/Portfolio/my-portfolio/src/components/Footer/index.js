@@ -1,15 +1,14 @@
-import styled from 'styled-components';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import { Bio } from '../../data/constants';
+import styled from "styled-components";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
   width: 100%;
-  padding: 2rem 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -18,13 +17,13 @@ const FooterWrapper = styled.footer`
   flex-direction: column;
   gap: 14px;
   align-items: center;
-  padding: 1rem;
+  padding: 10px;
   color: ${({ theme }) => theme.text_primary};
 `;
 
 const Logo = styled.h1`
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
   color: ${({ theme }) => theme.primary};
   @media (max-width: 768px) {
     font-size: 1.4rem;
@@ -34,7 +33,6 @@ const Logo = styled.h1`
 const Nav = styled.nav`
   width: 100%;
   max-width: 800px;
-  margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -49,21 +47,20 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 
 const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 1rem;
 `;
 
 const SocialMediaIcon = styled.a`
@@ -76,20 +73,19 @@ const SocialMediaIcon = styled.a`
     color: ${({ theme }) => theme.primary};
   }
   svg {
-    width: 100%; 
-    height: auto; 
-    max-width: 2.2rem; 
+    width: 100%;
+    height: auto;
+    max-width: 2.2rem;
     max-height: 2.2rem;
   }
 `;
 
 const Copyright = styled.p`
-  margin-top: 0.3rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: ${({ theme }) => theme.primary};
   text-align: center;
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -107,13 +103,14 @@ function Footer() {
           <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon/></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <TwitterIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Nivedita Kaur. All rights reserved.
-        </Copyright>
-
+        <Copyright>&copy; 2023 Nivedita Kaur. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
