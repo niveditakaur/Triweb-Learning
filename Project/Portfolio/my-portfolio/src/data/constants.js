@@ -4,8 +4,6 @@ export const Bio = {
   description:
     "with a keen eye for aesthetics and a passion for coding, I aim to bring together creativity and technology. I'm a determined and flexible individual, always eager to embrace fresh challenges. My ultimate goal is to craft experiences that are not only meaningful but also unforgettable for users.",
   github: "https://github.com/niveditakaur",
-  resume:
-    "https://drive.google.com/file/d/1QbYtVw8wAaCRV-UtjQfqmp4wOPOV0_-H/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/niveditakaur/",
   twitter: "https://twitter.com/NiveditaKaur",
 };
