@@ -15,7 +15,7 @@ const Document = styled.img`
 
 const Description = styled.div`
   width: 100%;
-  font-size: 15.5px;
+  font-size: 15px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
   margin-bottom: 10px;
@@ -89,7 +89,7 @@ const Body = styled.div`
 `;
 
 const Name = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary + 99};
   @media only screen and (max-width: 768px) {
@@ -98,7 +98,7 @@ const Name = styled.div`
 `;
 
 const Degree = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
@@ -107,7 +107,7 @@ const Degree = styled.div`
 `;
 
 const Date = styled.div`
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 80};
   @media only screen and (max-width: 768px) {
