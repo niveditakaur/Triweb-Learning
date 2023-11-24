@@ -85,3 +85,21 @@ This internship focused on developing web applications and services using a vari
 - [**TypeScript**](https://github.com/niveditakaur/Triweb-Learning/blob/b4722623ac3c6dac23b45283d04271c386bae91c/TypeScript/README.md): This folder contains practice examples of how to convert Node.js programs to TypeScript with the concept of router, controller, model, and distribution (dist).
 
 - [**React**](): This folder contains a full-stack web application that enables users to explore a catalogue of products, complete purchases, and bookmark their favourite items.
+
+## 🔗 Connect with me:
+
+[![linkedin](https://img.shields.io/badge/NiveditaKaur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niveditakaur/)
+
+[![twitter](https://img.shields.io/badge/niveditakaur-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NiveditaKaur)
+
+[![Email](https://img.shields.io/badge/niveditakaur5244%40gmail.com-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:niveditakaur5244@gmail.com)
+
+## References:
+
+### Tutor: Sayed Azhar Sabri
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sayedazharsabri)
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@codebyheart )
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayedazharsabri/)
