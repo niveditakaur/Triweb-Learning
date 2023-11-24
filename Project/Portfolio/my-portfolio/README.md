@@ -2,14 +2,14 @@
 
 This portfolio website, built using React, showcases my skills, experiences, projects, and educational background in a user-friendly format.
 
-Live version of this portfolio:
+Live version of this portfolio:\
 [![Visit My Portfolio](https://img.shields.io/badge/Visit-My_Portfolio-blueviolet?style=for-the-badge&logo=react)](https://niveditakaurportfolio.vercel.app/)
 
 ## Preview
 
 #### About Page
 
-<img src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/10ec6552-b321-460c-adff-894fb2fff5d2" alt="About Page" width="600" >
+<img src="https://github.com/niveditakaur/Triweb-Learning/assets/120108968/219266f8-7b88-4a40-bbc3-737f9e111800" alt="About Page" width="600" >
 
 #### Skills Page
 
